@@ -37,9 +37,4 @@ java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
 }
-
-// --- АВТОМАТИЧЕСКОЕ СОЗДАНИЕ GRADLEW ---
-tasks.register('wrapper', Wrapper) {
-    gradleVersion = '8.5'
-    distributionType = Wrapper.DistributionType.BIN
 }
